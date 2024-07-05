@@ -1,0 +1,45 @@
+.button {
+    cursor: pointer;
+    z-index: 1;
+    isolation: isolate;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 76px;
+    transition: all .3s;
+    height: fit-content;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    width: fit-content;
+    border-radius: 10px;
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.3483240008354187px;
+    text-align: center;
+}
+
+.outlined {
+    background-color: #3055AD00;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.outlined.white {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.filled.white {
+    background-color: #FFFFFF;
+    color: #1D30DB;
+}
+
+.filled.blue {
+    background-color: #1D30DB;
+    color: #FFFFFF;
+}

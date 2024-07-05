@@ -1,0 +1,27 @@
+.container {
+    background: rgba(15, 17, 36, 0.6);
+    padding: 0 12px 10px;
+    border: #1D30DB 1px solid;
+    border-radius: 8px;
+}
+
+.photo {
+    border-radius: 8px;
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.texts {
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 20px 0 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.caption {
+    font-size: 8px;
+    text-align: end;
+}

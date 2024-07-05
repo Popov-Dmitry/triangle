@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+}
+
+.bubble {
+    width: 100%;
+    aspect-ratio: 296/84;
+    position: relative;
+}
+
+.text {
+    font-family: var(--font-fira-mono);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 15%;
+    right: 10%;
+    transform: translateY(-50%);
+}
