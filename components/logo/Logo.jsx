@@ -9,12 +9,11 @@ const Logo = ({ src, rotated, width, height, className }) => {
       <Image
         src="/triangle.svg"
         alt=""
-        width={248}
-        height={226}
+        fill
         className={rotated ? styles.rotated : undefined}
       />
       <div className={rotated ? styles.logoRotated : styles.logo}>
-        <Image src={src} alt="" width={width || 130} height={height || 130} />
+        <Image src={src} alt="" width={width || 150} height={height || 150} />
       </div>
     </div>
   );

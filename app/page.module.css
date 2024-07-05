@@ -107,15 +107,21 @@
     display: flex;
 }
 
+.partnersBottom {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
 .partner {
-    margin-left: -70px;
+    margin-left: -100px;
 }
 
 .partnersCaption {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    margin-left: 24px;
+    margin-left: 50px;
 }
 
 .expectationsWrapper {
@@ -126,12 +132,12 @@
     display: flex;
     gap: 50px;
     align-items: center;
+    justify-content: center;
 }
 
 .expectationsTriangle {
     position: relative;
     width: fit-content;
-    margin-left: -30px;
 }
 
 .expectationsTriangleContent {

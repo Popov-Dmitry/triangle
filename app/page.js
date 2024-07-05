@@ -56,14 +56,16 @@ export default function Home() {
             Notcoin and Open Builders Ecosystems<span className={styles.caption}> gives priority access to the user-acquisition toolsets and best practices of launching on Telegram & Ton</span>
           </div>
           <div className={styles.partners}>
-            <Logo src="/logo/logo-notcoin.svg" width={250} height={250} />
+            <Logo src="/logo/logo-notcoin.svg" width={300} height={300} />
             <Logo src="/logo/union.svg" rotated className={styles.partner} />
             <Logo src="/logo/subtract.svg" className={styles.partner} />
             <Logo src="/logo/early.svg" rotated className={styles.partner} />
           </div>
-          <div className={styles.partners}>
-            <Logo src="/logo/sign.svg" rotated />
-            <Logo src="/logo/1inch.svg" className={styles.partner} />
+          <div className={styles.partnersBottom}>
+            <div className={styles.partners}>
+              <Logo src="/logo/sign.svg" rotated />
+              <Logo src="/logo/1inch.svg" className={styles.partner} />
+            </div>
             <div className={styles.partnersCaption}>
               <div>
                 <div className={styles.subtitleBold}>Sign Protocol</div>
