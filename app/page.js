@@ -70,7 +70,7 @@ export default function Home() {
               <div>
                 <div className={styles.subtitleBold}>Sign Protocol</div>
                 <div className={styles.caption}>
-                  gives access for technical solutions:<br/>
+                  gives access for technical solutions:<br />
                   product 1 , product 2
                 </div>
               </div>
@@ -124,7 +124,8 @@ export default function Home() {
             <ChatBubble text="What the areas of interest for Triangle accelerator?" />
             <div className={styles.borderedList}>
               <div>
-                There is no ‘right’ idea for the program, but some of the areas that could be if interest are the following:
+                There is no ‘right’ idea for the program, but some of the areas that could be if interest are the
+                following:
               </div>
               <ul className={styles.list}>
                 <li>Building infrastructure for TON</li>
@@ -153,6 +154,25 @@ export default function Home() {
               <Button text="Apply project" className={styles.faqButton} />
             </div>
           </div>
+        </div>
+        <div>
+          <div className={styles.bottomText}>
+            It’s a community where you can find a support from experienced folks of web3 industry.
+            <br /><br />
+            Web3-field changes rapidly. Nowadays we have a solution which bringing opportunities today what can’t be
+            imagined yesterday - seamless onboarding of multimillion users audience to web3 through telegram.dience to
+            web3 through telegram.
+            <br /><br />
+            Depending on it we’re seeing how TON blockchain rapidly growing and becoming day by day a center of interest
+            in blockchain industry.
+            <br /><br />
+            it’s a field for disrupting experiments.
+            <br /><br />
+            We’re on stage of smth completely different, we haven’t those experience before → we need to rethink how
+            great
+            web3 can really be.
+          </div>
+          <Button text="Get in touch" color="blue" className={styles.getInTouchButton} />
         </div>
       </div>
     </div>

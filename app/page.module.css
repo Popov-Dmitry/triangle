@@ -1,6 +1,6 @@
 .container {
     background: url("/background.png") 0 -40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .logo {
@@ -227,4 +227,22 @@
 
 .list {
     margin-top: 0;
+}
+
+.bottomText {
+    padding: 40px 100px;
+    font-family: var(--font-menlo);
+    color: #1D30DB;
+}
+
+.getInTouchButton {
+    color: #0E100F !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    letter-spacing: -0.3483240008354187px !important;
+    text-align: center !important;
+    float: right;
+    margin-right: 100px;
 }

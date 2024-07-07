@@ -1,4 +1,5 @@
 import { Inter, Inter_Tight, Fira_Mono } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
 import { joinClassNames } from "@/utils/join-class-names";
 
@@ -21,10 +22,21 @@ const firaMono = Fira_Mono({
   display: "swap"
 });
 
+const menlo = localFont({
+  src: '../Menlo-Regular.ttf',
+  variable: "--font-menlo",
+  display: 'swap',
+});
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={joinClassNames(inter.variable, firaMono.variable, interTight.variable)}>
+      <body className={joinClassNames(
+        inter.variable,
+        firaMono.variable,
+        interTight.variable,
+        menlo.variable
+      )}>
         <main>
           {children}
         </main>
