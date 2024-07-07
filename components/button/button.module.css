@@ -43,3 +43,7 @@
     background-color: #1D30DB;
     color: #FFFFFF;
 }
+
+@media (max-width: 767px) {
+    font-size: 16px;
+}

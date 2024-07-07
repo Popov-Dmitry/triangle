@@ -1,6 +1,6 @@
 .container {
     background: url("/background.png") 0 -40px;
-    padding-bottom: 80px;
+    padding: 0 10px 80px 10px;
 }
 
 .logo {
@@ -245,4 +245,117 @@
     text-align: center !important;
     float: right;
     margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+    .partner {
+        margin-left: -70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .triangle {
+        margin-top: -100px;
+        margin-left: -120px;
+    }
+
+    .triangleContent {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .triangleCaption {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .subtitle, .subtitleBold {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .caption {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .mentors {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 8px;
+    }
+
+    .partnersBottom {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .partner {
+        margin-left: -60px;
+    }
+
+    .partnersCaption {
+        margin: 0
+    }
+
+    .partnersButton {
+        width: 100% !important;
+        margin-top: 28px;
+    }
+
+    .expectationsWrapper {
+        margin-top: 28px;
+    }
+
+    .expectationsTriangleWrapper {
+        flex-direction: column;
+    }
+
+    .expectationsTriangleEmoji {
+        font-size: 85px;
+        line-height: 103px;
+    }
+
+    .expectationsTriangleText {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .expectationsCaption1, .expectationsCaption2, .expectationsCaption3 {
+        max-width: fit-content;
+        margin: 0;
+    }
+
+    .faq {
+        margin-top: 82px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0;
+    }
+
+    .borderedList {
+        font-size: 18px;
+        line-height: 22px;
+        margin-right: 20px;
+    }
+
+    .faqButton {
+        margin-left: 0;
+        width: 100% !important;
+    }
+
+    .bottomText {
+        padding: 40px 0 20px 0;
+    }
+
+    .getInTouchButton {
+        margin-right: 10px;
+    }
 }

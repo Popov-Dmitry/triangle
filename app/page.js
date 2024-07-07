@@ -6,6 +6,7 @@ import MentorCard from "@/components/mentor-card/MentorCard";
 import ChatBubble from "@/components/chat-bubble/ChatBubble";
 import Logo from "@/components/logo/Logo";
 import { joinClassNames } from "@/utils/join-class-names";
+import { Desktop, Mobile } from "@/components/responsive/Responsive";
 
 export default function Home() {
   return (
@@ -56,15 +57,29 @@ export default function Home() {
             Notcoin and Open Builders Ecosystems<span className={styles.caption}> gives priority access to the user-acquisition toolsets and best practices of launching on Telegram & Ton</span>
           </div>
           <div className={styles.partners}>
-            <Logo src="/logo/logo-notcoin.svg" width={300} height={300} />
+            <Desktop>
+              <Logo src="/logo/logo-notcoin.svg" width={300} height={300} />
+            </Desktop>
+            <Mobile>
+              <Logo src="/logo/logo-notcoin.svg" width={200} height={200} />
+            </Mobile>
             <Logo src="/logo/union.svg" rotated className={styles.partner} />
             <Logo src="/logo/subtract.svg" className={styles.partner} />
-            <Logo src="/logo/early.svg" rotated className={styles.partner} />
+            <Desktop>
+              <Logo src="/logo/early.svg" rotated className={styles.partner} />
+            </Desktop>
           </div>
           <div className={styles.partnersBottom}>
             <div className={styles.partners}>
-              <Logo src="/logo/sign.svg" rotated />
-              <Logo src="/logo/1inch.svg" className={styles.partner} />
+              <Desktop>
+                <Logo src="/logo/sign.svg" rotated />
+                <Logo src="/logo/1inch.svg" className={styles.partner} />
+              </Desktop>
+              <Mobile>
+                <Logo src="/logo/early.svg" rotated />
+                <Logo src="/logo/1inch.svg" className={styles.partner} />
+                <Logo src="/logo/sign.svg" rotated className={styles.partner} />
+              </Mobile>
             </div>
             <div className={styles.partnersCaption}>
               <div>
@@ -81,7 +96,7 @@ export default function Home() {
                   experience and grants program
                 </div>
               </div>
-              <Button text="Apply project" color="blue" />
+              <Button text="Apply project" color="blue" className={styles.partnersButton} />
             </div>
           </div>
         </div>
