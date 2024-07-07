@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <div className={styles.logo}>
-        <Image src="/logo.png" alt="TRIANGLE" fill />
+        <Image src="/logo_tr.svg" alt="TRIANGLE" fill />
       </div>
       <div className={styles.container}>
         <div className={styles.triangleWrapper}>
@@ -35,7 +35,18 @@ export default function Home() {
         <div className={styles.mentorsWrapper}>
           <div className={styles.spaceBetween}>
             <div className={styles.title}>Mentors</div>
-            <div className={styles.title}>🌲👼</div>
+            <Desktop>
+              <div>
+                <Image src="./evergreen_tree.svg" alt="" width={48} height={48} />
+                <Image src="./baby_angel_light_skin_tone.svg" alt="" width={48} height={48} />
+              </div>
+            </Desktop>
+            <Mobile>
+              <div>
+                <Image src="./evergreen_tree.svg" alt="" width={24} height={24} />
+                <Image src="./baby_angel_light_skin_tone.svg" alt="" width={24} height={24} />
+              </div>
+            </Mobile>
           </div>
           <div className={styles.mentors}>
             {mentors.map((mentor) => (
