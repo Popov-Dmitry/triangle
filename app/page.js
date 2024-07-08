@@ -142,7 +142,7 @@ export default function Home() {
                 height={480}
                 className={styles.expectationsTriangleMain}
               />
-              <div className={styles.expectationsTriangleWrapper}>
+              <div className={styles.expectationsTriangleBackWrapper}>
                 {new Array(10).fill(1).map((_, index) => (
                   <Image
                     key={index}
