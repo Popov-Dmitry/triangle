@@ -3,6 +3,11 @@
     padding: 0 12px 10px;
     border: #1D30DB 1px solid;
     border-radius: 8px;
+    transition: 0.3s;
+}
+
+.container:hover {
+    scale: 1.05;
 }
 
 .photo {
