@@ -1,5 +1,5 @@
 .container {
-    background: url("/background.png");
+    background: url("/background.svg");
     padding: 0 10px 80px 10px;
 }
 
@@ -299,6 +299,7 @@
 
 @media (max-width: 767px) {
     .container {
+        background: url("/background_mobile.svg");
         padding: 0 30px 80px 30px;
     }
 
