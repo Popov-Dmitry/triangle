@@ -139,7 +139,7 @@ export default function Home() {
                 height={480}
                 className={styles.expectationsTriangleMain}
               />
-              <Desktop>
+              <div className={styles.expectationsTriangleWrapper}>
                 {new Array(10).fill(1).map((_, index) => (
                   <Image
                     key={index}
@@ -151,7 +151,7 @@ export default function Home() {
                     style={{ left: -20 * (index + 1), zIndex: 10 - index }}
                   />
                 ))}
-              </Desktop>
+              </div>
               <div className={styles.expectationsTriangleContent}>
                 <div className={styles.expectationsTriangleEmoji}>👁</div>
                 <br />

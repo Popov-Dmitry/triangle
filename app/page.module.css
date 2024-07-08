@@ -178,6 +178,7 @@
 
 .expectationsTriangleBack {
     position: absolute;
+    top: 0;
 }
 
 .expectationsTriangleContent {
@@ -371,6 +372,10 @@
 
     .expectationsTriangleWrapper {
         flex-direction: column;
+    }
+
+    .expectationsTriangleBackWrapper {
+        display: none;
     }
 
     .expectationsTriangleEmoji {
