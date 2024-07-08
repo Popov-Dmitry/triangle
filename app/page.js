@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div>
       <div className={styles.logo}>
-        <Image src="/main_logo.svg" alt="TRIANGLE" fill />
+        <Image src="./main_logo.svg" alt="TRIANGLE" fill />
       </div>
       <div className={styles.container}>
         <div className={styles.triangleWrapper}>
           <div className={styles.triangle}>
-            <Image src="/triangle.svg" alt="" width={596} height={544} />
+            <Image src="./triangle.svg" alt="" width={596} height={544} />
             <div className={styles.triangleContent}>
               Hello. We are looking for highly intelligent projects building on telegram/ton.
               <br /><br />
@@ -133,7 +133,7 @@ export default function Home() {
           <div className={styles.expectationsTriangleWrapper}>
             <div className={styles.expectationsTriangle}>
               <Image
-                src="/triangle.svg"
+                src="./triangle.svg"
                 alt=""
                 width={525}
                 height={480}
@@ -142,7 +142,8 @@ export default function Home() {
               <Desktop>
                 {new Array(10).fill(1).map((_, index) => (
                   <Image
-                    src="/triangle.svg"
+                    key={index}
+                    src="./triangle.svg"
                     alt=""
                     width={525}
                     height={480}
