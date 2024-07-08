@@ -25,7 +25,14 @@ export default function Home() {
               <br /><br />
               Apply your project until 10 august 2pm CET.
               <br /><br />
-              <Button text="Apply project" variant="outlined" color="white" className={styles.fullWidthButton} />
+              <Button
+                text="Apply project"
+                variant="outlined"
+                color="white"
+                className={styles.fullWidthButton}
+                href="https://tally.so/r/3jxoZx"
+                newTab
+              />
             </div>
           </div>
           <div className={styles.triangleCaption}>
@@ -57,6 +64,8 @@ export default function Home() {
             text="Apply project"
             color="blue"
             className={joinClassNames(styles.fullWidthButton, styles.mt30)}
+            href="https://tally.so/r/3jxoZx"
+            newTab
           />
         </div>
         <div className={styles.partnersWrapper}>
@@ -93,7 +102,13 @@ export default function Home() {
                   <li>Amount of your total trading volume or smth like that -{'>'} DeFi OGs</li>
                 </ul>
               </div>
-              <Button text="Apply project" color="blue" className={styles.fullWidthButton} />
+              <Button
+                text="Apply project"
+                color="blue"
+                className={styles.fullWidthButton}
+                href="https://tally.so/r/3jxoZx"
+                newTab
+              />
             </div>
             <div className={styles.partnersTriangles}>
               <div className={styles.partners}>
@@ -163,6 +178,8 @@ export default function Home() {
               text="Apply project"
               variant="outlined"
               className={joinClassNames(styles.fullWidthButton, styles.mt30)}
+              href="https://tally.so/r/3jxoZx"
+              newTab
             />
           </div>
         </div>
@@ -198,7 +215,12 @@ export default function Home() {
                 folks from different chains →
                 feel free to explore telegram ecosystem with us.
               </div>
-              <Button text="Apply project" className={styles.faqButton} />
+              <Button
+                text="Apply project"
+                className={styles.faqButton}
+                href="https://tally.so/r/3jxoZx"
+                newTab
+              />
             </div>
           </div>
         </div>
@@ -225,7 +247,13 @@ export default function Home() {
             <div>Telegram</div>
             <div>X</div>
           </div>
-          <Button text="Get in touch" color="blue" className={styles.getInTouchButton} />
+          <Button
+            text="Get in touch"
+            color="blue"
+            className={styles.getInTouchButton}
+            href="https://tally.so/r/3jxoZx"
+            newTab
+          />
         </div>
       </div>
     </div>

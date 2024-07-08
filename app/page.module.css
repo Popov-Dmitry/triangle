@@ -36,6 +36,7 @@
 
 .fullWidthButton {
     width: 100% !important;
+    box-sizing: border-box;
 }
 
 .mt30 {
@@ -251,6 +252,7 @@
     margin-left: 10px;
     width: calc(100% - 10px) !important;
     align-self: center;
+    box-sizing: border-box;
 }
 
 .list {
