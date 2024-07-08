@@ -20,7 +20,9 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.triangleWrapper}>
           <div className={styles.triangle}>
-            <Image src="./triangle.svg" alt="" width={596} height={544} />
+            <div className={styles.triangleImageWrapper}>
+              <Image src="./triangle.svg" alt="" fill />
+            </div>
             <div className={styles.triangleContent}>
               Hello. We are looking for highly intelligent projects building on telegram/ton.
               <br /><br />
@@ -138,8 +140,7 @@ export default function Home() {
               <Image
                 src="./triangle.svg"
                 alt=""
-                width={525}
-                height={480}
+                fill
                 className={styles.expectationsTriangleMain}
               />
               <div className={styles.expectationsTriangleBackWrapper}>

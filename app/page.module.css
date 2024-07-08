@@ -15,6 +15,12 @@
     justify-content: space-between;
 }
 
+.triangleImageWrapper {
+    position: relative;
+    width: 596px;
+    height: 544px;
+}
+
 .triangle {
     position: relative;
     width: fit-content;
@@ -31,7 +37,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    text-align: left;
+    text-align: center;
 }
 
 .fullWidthButton {
@@ -168,7 +174,8 @@
 
 .expectationsTriangle {
     position: relative;
-    width: fit-content;
+    width: 525px;
+    height: 480px;
 }
 
 .expectationsTriangleMain {
@@ -309,11 +316,19 @@
     .triangle {
         margin-top: -100px;
         margin-left: -120px;
+        width: 100%;
+    }
+
+    .triangleImageWrapper {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 596/544;
     }
 
     .triangleContent {
         font-size: 16px;
         line-height: 19px;
+        text-align: left;
     }
 
     .triangleCaption {
@@ -372,6 +387,12 @@
 
     .expectationsTriangleWrapper {
         flex-direction: column;
+    }
+
+    .expectationsTriangle {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 525/480;
     }
 
     .expectationsTriangleBackWrapper {
