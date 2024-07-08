@@ -124,16 +124,18 @@ export default function Home() {
                 height={480}
                 className={styles.expectationsTriangleMain}
               />
-              {new Array(10).fill(1).map((_, index) => (
-                <Image
-                  src="/triangle.svg"
-                  alt=""
-                  width={525}
-                  height={480}
-                  className={styles.expectationsTriangleBack}
-                  style={{ left: -20 * (index + 1), zIndex: 10 - index }}
-                />
-              ))}
+              <Desktop>
+                {new Array(10).fill(1).map((_, index) => (
+                  <Image
+                    src="/triangle.svg"
+                    alt=""
+                    width={525}
+                    height={480}
+                    className={styles.expectationsTriangleBack}
+                    style={{ left: -20 * (index + 1), zIndex: 10 - index }}
+                  />
+                ))}
+              </Desktop>
               <div className={styles.expectationsTriangleContent}>
                 <div className={styles.expectationsTriangleEmoji}>👁</div>
                 <br />

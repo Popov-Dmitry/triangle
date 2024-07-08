@@ -298,6 +298,10 @@
 }
 
 @media (max-width: 767px) {
+    .container {
+        padding: 0 30px 80px 30px;
+    }
+
     .triangle {
         margin-top: -100px;
         margin-left: -120px;
@@ -311,6 +315,7 @@
     .triangleCaption {
         font-size: 14px;
         line-height: 17px;
+        align-self: start;
     }
 
     .title {
@@ -330,12 +335,22 @@
 
     .mentors {
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 24px;
-        grid-row-gap: 8px;
+        grid-column-gap: 20px;
+        grid-row-gap: 26px;
     }
 
     .mentorsTitle {
         justify-content: space-between;
+    }
+
+    .partnersBlock {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .partnersInfo {
+        gap: 20px;
+        margin-top: 20px;
     }
 
     .partner {
@@ -347,7 +362,8 @@
     }
 
     .expectationsWrapper {
-        margin-top: 28px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr;
     }
 
     .expectationsTriangleWrapper {
@@ -381,6 +397,7 @@
         font-size: 18px;
         line-height: 22px;
         margin-right: 20px;
+        border-radius: 32px;
     }
 
     .faqButton {
@@ -394,5 +411,15 @@
 
     .getInTouchButton {
         margin-right: 10px;
+    }
+
+    .bottomButtons {
+        padding: 60px 0 0 0;
+    }
+
+    .sns {
+        font-size: 18px;
+        line-height: 36px;
+        gap: 40px;
     }
 }
