@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <div className={styles.logo}>
-        <Image src="/logo_tr.svg" alt="TRIANGLE" fill />
+        <Image src="/main_logo.svg" alt="TRIANGLE" fill />
       </div>
       <div className={styles.container}>
         <div className={styles.triangleWrapper}>
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.mentorsWrapper}>
-          <div className={styles.spaceBetween}>
+          <div className={styles.mentorsTitle}>
             <div className={styles.title}>Mentors</div>
             <Desktop>
               <div>
@@ -64,57 +64,76 @@ export default function Home() {
             Initial<br />
             contributors & partners
           </div>
-          <div className={styles.subtitle}>
-            Notcoin and Open Builders Ecosystems<span className={styles.caption}> gives priority access to the user-acquisition toolsets and best practices of launching on Telegram & Ton</span>
-          </div>
-          <div className={styles.partners}>
-            <Desktop>
-              <Logo src="/logo/logo-notcoin.svg" width={300} height={300} />
-            </Desktop>
-            <Mobile>
-              <Logo src="/logo/logo-notcoin.svg" width={200} height={200} />
-            </Mobile>
-            <Logo src="/logo/union.svg" rotated className={styles.partner} />
-            <Logo src="/logo/subtract.svg" className={styles.partner} />
-            <Desktop>
-              <Logo src="/logo/early.svg" rotated className={styles.partner} />
-            </Desktop>
-          </div>
-          <div className={styles.partnersBottom}>
-            <div className={styles.partners}>
-              <Desktop>
-                <Logo src="/logo/sign.svg" rotated />
-                <Logo src="/logo/1inch.svg" className={styles.partner} />
-              </Desktop>
-              <Mobile>
-                <Logo src="/logo/early.svg" rotated />
-                <Logo src="/logo/1inch.svg" className={styles.partner} />
-                <Logo src="/logo/sign.svg" rotated className={styles.partner} />
-              </Mobile>
-            </div>
-            <div className={styles.partnersCaption}>
+          <div className={styles.partnersBlock}>
+            <div className={styles.partnersInfo}>
+              <div>
+                <div className={styles.subtitle}>
+                  Notcoin and Open Builders
+                </div>
+                <ul className={styles.partnersList}>
+                  <li>40m+ users, 10m+ holders.</li>
+                  <li>500 user-acquisition campaigns</li>
+                  <li>Experience of launching of major products on TON ecosystem.</li>
+                  <li>Infrastructure and toolsets</li>
+                  <li>Access for leading network from ton, telegram and web3 ecosystems.</li>
+                </ul>
+              </div>
               <div>
                 <div className={styles.subtitleBold}>Sign Protocol</div>
-                <div className={styles.caption}>
-                  gives access for technical solutions:<br />
-                  product 1 , product 2
-                </div>
+                <ul className={styles.partnersList}>
+                  <li>Infrastructure for token launches, management and token-distribution.</li>
+                  <li>Amount of project w/ whom you working on tokenmanagement -{'>'} experts in BD</li>
+                  <li>The first product in history invested by x3 Sequoia -{'>'} fundraise experts</li>
+                </ul>
               </div>
               <div>
                 <div className={styles.subtitleBold}>1inch</div>
-                <div className={styles.caption}>
-                  gives access for DeFi-leading<br />
-                  experience and grants program
-                </div>
+                <ul className={styles.partnersList}>
+                  <li>Amount of ecosystems you supporting/cooperating -{'>'} experts in ecosystem-growth</li>
+                  <li>Amount of your total trading volume or smth like that -{'>'} DeFi OGs</li>
+                </ul>
               </div>
-              <Button text="Apply project" color="blue" className={styles.partnersButton} />
+              <Button text="Apply project" color="blue" className={styles.fullWidthButton} />
+            </div>
+            <div className={styles.partnersTriangles}>
+              <div className={styles.partners}>
+                <Logo src="/logo/union.svg" rotated />
+                <Desktop>
+                  <Logo src="/logo/logo-notcoin.svg" width={300} height={300} className={styles.partner} />
+                </Desktop>
+                <Mobile>
+                  <Logo src="/logo/logo-notcoin.svg" width={200} height={200} className={styles.partner} />
+                </Mobile>
+                <Logo src="/logo/early.svg" rotated className={styles.partner} />
+              </div>
+              <div className={styles.partners}>
+                <Logo src="/logo/subtract.svg" />
+                <Logo src="/logo/sign.svg" rotated className={styles.partner} />
+                <Logo src="/logo/1inch.svg" className={styles.partner} />
+              </div>
             </div>
           </div>
         </div>
         <div className={styles.expectationsWrapper}>
           <div className={styles.expectationsTriangleWrapper}>
             <div className={styles.expectationsTriangle}>
-              <Image src="/triangle.svg" alt="" width={525} height={480} />
+              <Image
+                src="/triangle.svg"
+                alt=""
+                width={525}
+                height={480}
+                className={styles.expectationsTriangleMain}
+              />
+              {new Array(10).fill(1).map((_, index) => (
+                <Image
+                  src="/triangle.svg"
+                  alt=""
+                  width={525}
+                  height={480}
+                  className={styles.expectationsTriangleBack}
+                  style={{ left: -20 * (index + 1), zIndex: 10 - index }}
+                />
+              ))}
               <div className={styles.expectationsTriangleContent}>
                 <div className={styles.expectationsTriangleEmoji}>👁</div>
                 <br />
@@ -124,26 +143,26 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className={styles.expectationsCaptions}>
-              <div className={joinClassNames(styles.caption, styles.expectationsCaption1)}>
-                6 weeks with various mentor sessions from leading founders of web3 companies, and prolific TON ecosystem
-                members.
-              </div>
-              <div className={joinClassNames(styles.caption, styles.expectationsCaption2)}>
-                The program’s focus is on Go-To-Market Strategy, technical support and fundraising.
-              </div>
-              <div className={joinClassNames(styles.caption, styles.expectationsCaption3)}>
-                The Triangle accelerator will culminate in a demo day with
-                the opportunity to attract investment opportunities
-                for your company.
-              </div>
-            </div>
           </div>
-          <Button
-            text="Apply project"
-            variant="outlined"
-            className={joinClassNames(styles.fullWidthButton, styles.mt30)}
-          />
+          <div className={styles.expectationsCaptions}>
+            <div className={styles.caption}>
+              6 weeks with various mentor sessions from leading founders of web3 companies, and prolific TON ecosystem
+              members.
+            </div>
+            <div className={styles.caption}>
+              The program’s focus is on Go-To-Market Strategy, technical support and fundraising.
+            </div>
+            <div className={styles.caption}>
+              The Triangle accelerator will culminate in a demo day with
+              the opportunity to attract investment opportunities
+              for your company.
+            </div>
+            <Button
+              text="Apply project"
+              variant="outlined"
+              className={joinClassNames(styles.fullWidthButton, styles.mt30)}
+            />
+          </div>
         </div>
         <div className={styles.faq}>
           <div>
@@ -197,6 +216,12 @@ export default function Home() {
             We’re on stage of smth completely different, we haven’t those experience before → we need to rethink how
             great
             web3 can really be.
+          </div>
+        </div>
+        <div className={styles.bottomButtons}>
+          <div className={styles.sns}>
+            <div>Telegram</div>
+            <div>X</div>
           </div>
           <Button text="Get in touch" color="blue" className={styles.getInTouchButton} />
         </div>

@@ -3,7 +3,7 @@
 }
 
 .bubble {
-    width: 100%;
+    width: 410px;
     aspect-ratio: 296/84;
     position: relative;
 }
@@ -19,10 +19,16 @@
     top: 50%;
     left: 15%;
     right: 10%;
+    max-width: 280px;
     transform: translateY(-50%);
 }
 
-.text {
-    font-size: 17px;
-    line-height: 20px;
+@media (max-width: 767px) {
+    .bubble {
+        width: 100%;
+    }
+
+    .text {
+        max-width: 100%;
+    }
 }

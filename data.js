@@ -75,7 +75,7 @@ export const opportunityList = [
 ]
 
 
-export const mentors = new Array(12).fill({
+export const mentors = new Array(10).fill({
   photo: "/mentors/smokey.png",
   name: "Smokey",
   position: "c-f Berachain",
