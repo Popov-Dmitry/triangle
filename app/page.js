@@ -4,9 +4,12 @@ import Button from "@/components/button/Button";
 import Image from "next/image";
 import MentorCard from "@/components/mentor-card/MentorCard";
 import ChatBubble from "@/components/chat-bubble/ChatBubble";
-import Logo from "@/components/logo/Logo";
 import { joinClassNames } from "@/utils/join-class-names";
 import { Desktop, Mobile } from "@/components/responsive/Responsive";
+import dynamic from "next/dynamic";
+
+const Logo = dynamic(() => import("@/components/logo/Logo"), { ssr: false })
+const Emoji = dynamic(() => import("@/components/emoji/Emoji"), { ssr: false })
 
 export default function Home() {
   return (
@@ -44,14 +47,14 @@ export default function Home() {
             <div className={styles.title}>Mentors</div>
             <Desktop>
               <div>
-                <Image src="./evergreen_tree.svg" alt="" width={48} height={48} />
-                <Image src="./baby_angel_light_skin_tone.svg" alt="" width={48} height={48} />
+                <Emoji src="./evergreen_tree.svg" alt="" width={48} height={48} />
+                <Emoji src="./baby_angel_light_skin_tone.svg" alt="" width={48} height={48} />
               </div>
             </Desktop>
             <Mobile>
               <div>
-                <Image src="./evergreen_tree.svg" alt="" width={24} height={24} />
-                <Image src="./baby_angel_light_skin_tone.svg" alt="" width={24} height={24} />
+                <Emoji src="./evergreen_tree.svg" alt="" width={24} height={24} />
+                <Emoji src="./baby_angel_light_skin_tone.svg" alt="" width={24} height={24} />
               </div>
             </Mobile>
           </div>
