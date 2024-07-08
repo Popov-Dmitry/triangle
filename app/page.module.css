@@ -1,5 +1,5 @@
 .container {
-    background: url("/background.svg");
+    background: url("/background.svg") fixed;
     padding: 0 10px 80px 10px;
 }
 
