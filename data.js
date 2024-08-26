@@ -238,3 +238,25 @@ export const mentors = [
     photo: "/mentors/min.jpg"
   }
 ];
+
+export const ecosystemPartnerLogos = [
+  "/ecosystem-partner-logos/GSR_Logo_Beige_RGB1.png",
+  "/ecosystem-partner-logos/Hacken_Black.png",
+  "/ecosystem-partner-logos/Hacken_Turcoise.png",
+  "/ecosystem-partner-logos/Hacken_White.png",
+  "/ecosystem-partner-logos/Stonfi_Dark.png",
+  "/ecosystem-partner-logos/TONX.svg"
+];
+
+export const vcPartnerLogos = [
+  "/vc-partner-logos/Animoca.png",
+  "/vc-partner-logos/Big_Brain.png",
+  "/vc-partner-logos/CMT.png",
+  "/vc-partner-logos/Draper.png",
+  "/vc-partner-logos/Fraction.png",
+  "/vc-partner-logos/Hashkey.png",
+  "/vc-partner-logos/IOSG_Ventures.png",
+  "/vc-partner-logos/Mirana-Ventures.png",
+  "/vc-partner-logos/Nomad_Capital.png",
+  "/vc-partner-logos/OKX.png"
+];

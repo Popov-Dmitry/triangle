@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import { mentors } from "@/data";
+import { ecosystemPartnerLogos, mentors, vcPartnerLogos } from "@/data";
 import Button from "@/components/button/Button";
 import Image from "next/image";
 import MentorCard from "@/components/mentor-card/MentorCard";
@@ -333,6 +333,34 @@ export default function Home() {
       </div>
       <div className={styles.footer}>
         <div className={styles.container}>
+          <div className={styles.bottomPartnersWrapper}>
+            <div>
+              <div className={styles.subtitle}>Ecosystem Partners</div>
+              <div className={styles.bottomPartners}>
+                {ecosystemPartnerLogos.map((src) => (
+                  <img
+                    key={src}
+                    src={src}
+                    alt=""
+                    className={src.includes("Stonfi") ? styles.bottomPartnerImage : styles.bottomPartnerImageWhite}
+                  />
+                ))}
+              </div>
+            </div>
+            <div>
+              <div className={styles.subtitle}>VC Partners</div>
+              <div className={styles.bottomPartners}>
+                {vcPartnerLogos.map((src) => (
+                  <img
+                    key={src}
+                    src={src}
+                    alt=""
+                    className={src.includes("Fraction") ? styles.bottomPartnerImage : styles.bottomPartnerImageWhite}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
           <div className={styles.bottomText}>
             Web3 landscape changes rapidly. Yesterday{"'"}s dreams are today
             {"'"}s solutions for us, such as seamless onboarding to Web3 for

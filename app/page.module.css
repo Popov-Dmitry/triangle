@@ -370,6 +370,29 @@
     border-bottom: 10px solid white; /* Цвет треугольника */
 }
 
+.bottomPartnersWrapper {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.bottomPartners {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.bottomPartnerImage, .bottomPartnerImageWhite {
+    height: 50px;
+}
+
+.bottomPartnerImageWhite {
+    filter: brightness(0) invert(1);
+}
+
 .bottomText {
     padding-top: 100px;
     /* padding: 100px 100px 40px; */
@@ -577,6 +600,10 @@
     .faqButton {
         margin-left: 0;
         width: 100% !important;
+    }
+
+    .bottomPartnerImage, .bottomPartnerImageWhite {
+        height: 35px;
     }
 
     .bottomText {
