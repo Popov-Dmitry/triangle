@@ -241,8 +241,6 @@ export const mentors = [
 
 export const ecosystemPartnerLogos = [
   "/ecosystem-partner-logos/GSR_Logo_Beige_RGB1.png",
-  "/ecosystem-partner-logos/Hacken_Black.png",
-  "/ecosystem-partner-logos/Hacken_Turcoise.png",
   "/ecosystem-partner-logos/Hacken_White.png",
   "/ecosystem-partner-logos/Stonfi_Dark.png",
   "/ecosystem-partner-logos/TONX.svg"
