@@ -31,19 +31,13 @@ export default function Home() {
             {/* </div> */}
             <Image src="./triangle.svg" alt="" width={525} height={544} />
             <div className={styles.triangleContent}>
-              Hello. We are looking for highly intelligent projects building on
-              TON and Telegram.
-              <br />
-              <br />
-              To find them, we have devised an accelerator program.
-              <br />
-              <br />
-              Apply before <br />
-              <u>10th August 2pm CET</u>.
-              <br />
-              <br />
+              <div>
+                Applications to Triangle Cohort 1 are now closed. <br />
+                Please follow us on Telegram & X for more updates. <br />
+                For other requests, please feel free to get in touch.
+              </div>
               <Button
-                text="Apply"
+                text="Get in touch"
                 className={styles.fullWidthButton}
                 href="https://tally.so/r/3jxoZx"
                 newTab
@@ -93,7 +87,7 @@ export default function Home() {
             ))}
           </div>
           <Button
-            text="Apply"
+            text="Get in touch"
             className={joinClassNames(styles.marginCenter, styles.mt30)}
             href="https://tally.so/r/3jxoZx"
             newTab
@@ -151,7 +145,7 @@ export default function Home() {
                 </div>
               </div>
               <Button
-                text="Apply"
+                text="Get in touch"
                 className={joinClassNames(styles.fullWidthButton, styles.mt30)}
                 href="https://tally.so/r/3jxoZx"
                 newTab
@@ -279,7 +273,7 @@ export default function Home() {
               </div>
             </div>
             <Button
-              text="Apply"
+              text="Get in touch"
               className={joinClassNames(styles.fullWidthButton, styles.mt30)}
               href="https://tally.so/r/3jxoZx"
               newTab
@@ -328,7 +322,7 @@ export default function Home() {
                 Apply with your project by 10th August 2pm CET.
               </div>
               <Button
-                text="Apply"
+                text="Get in touch"
                 className={styles.faqButton}
                 href="https://tally.so/r/3jxoZx"
                 newTab
