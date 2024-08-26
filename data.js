@@ -72,12 +72,162 @@ export const opportunityList = [
   "Get an access for technical solutions of Ethsign.",
   "Get access for DeFi-leading experience of linch.",
   "Pitch to promising ton&telegram-curious VCs."
-]
+];
 
+// export const mentors = new Array(10).fill({
+//   photo: "/mentors/smokey.png",
+//   name: "Smokey",
+//   position: "c-f Berachain",
+//   caption: "via @triangle 4:19",
+//   href: "https://google.com"
+// });
 
-export const mentors = new Array(10).fill({
-  photo: "/mentors/smokey.png",
-  name: "Smokey",
-  position: "c-f Berachain",
-  caption: "via @triangle 4:19"
-});
+export const mentors = [
+  {
+    name: "Xin Yan",
+    position: "Co-Founder & CEO Sign",
+    href: "https://x.com/realyanxin",
+    caption: "via @realyanxin",
+    photo: "/mentors/xin.png"
+  },
+  {
+    name: "Anton Bukov",
+    position: "Co-Founder 1inch",
+    href: "https://x.com/k06a",
+    caption: "via @k06a",
+    photo: "/mentors/anton-bukov.png"
+  },
+  {
+    name: "Sasha Plotvinov",
+    position: "Founder Notcoin & Open Builders",
+    href: "https://x.com/takoy_sasha",
+    caption: "via @takoy_sasha",
+    photo: "/mentors/sasha-notcoin.png"
+  },
+  {
+    name: "Smokey",
+    position: "Co-Founder Berachain",
+    href: "https://x.com/SmokeyTheBera",
+    caption: "via @SmokeyTheBera",
+    photo: "/mentors/smokey.png"
+  },
+  {
+    name: "Sophia Rusconi",
+    position: "Head of Acceleration TON Foundation",
+    href: "https://x.com/sophireum",
+    caption: "via @sophireum",
+    photo: "/mentors/sophia.png"
+  },
+  {
+    name: "Alena Shmalko",
+    position: "Ecosystem Lead TON Foundation",
+    href: "https://x.com/alenka_w3",
+    caption: "via @alenka_w3",
+    photo: "/mentors/alena.png"
+  },
+  {
+    name: "Inal Kardan",
+    position: "Head of Gaming TON Foundation",
+    href: "https://x.com/ikardanoff",
+    caption: "via @ikardanoff",
+    photo: "/mentors/inal.png"
+  },
+  {
+    name: "Orion Parrott",
+    position: "GP OrangeDAO",
+    href: "https://x.com/OrionParrott",
+    caption: "via @OrionParrott",
+    photo: "/mentors/orion.png"
+  },
+  {
+    name: "Kirill Malev",
+    position: "Junior Partner TOP",
+    href: "https://x.com/playittodeath",
+    caption: "via @playittodeath",
+    photo: "/mentors/kirill.png"
+  },
+  {
+    name: "Slavik Baranov",
+    position: "Founder STON.fi",
+    href: "https://x.com/ston_fi",
+    caption: "via @ston_fi",
+    photo: "/mentors/slavik.png"
+  },
+  {
+    name: "Martin Masser",
+    position: "CBDO STON.fi",
+    href: "https://x.com/MartinatSton",
+    caption: "via @MartinatSton",
+    photo: "/mentors/martin.png"
+  },
+  {
+    name: "Pierre Lavarague",
+    position: "Head of Business Development Trust",
+    href: "https://twitter.com/pierre_trust",
+    caption: "via @pierre_trust",
+    photo: "/mentors/pierre.png"
+  },
+  {
+    name: "Dyma Budorin",
+    position: "CEO & Co-Founder Hacken",
+    href: "https://x.com/buda_kyiv",
+    caption: "via @buda_kyiv",
+    photo: "/mentors/dyma.png"
+  },
+  {
+    name: "Max Power",
+    position: "Special Projects Layer Zero",
+    href: "https://x.com/maybemaxpower",
+    caption: "via @maybemaxpower",
+    photo: "/mentors/maxpower.png"
+  },
+  {
+    name: "David Ching",
+    position: "Investment & Strategic Partnerships Director Animoca Brands",
+    href: "https://x.com/0xAbcdave",
+    caption: "via @0xAbcdave",
+    photo: "/mentors/davidching.png"
+  },
+  {
+    name: "Wego",
+    position: "Co-Founder TONX",
+    href: "https://x.com/akawego",
+    caption: "via @akawego",
+    photo: "/mentors/wego.png"
+  },
+  {
+    name: "Felix Xu",
+    position: "Founder of ARPA Network and Penrose Ventures",
+    href: "https://x.com/felixmxu",
+    caption: "via @felixmxu",
+    photo: "/mentors/felixxu.png"
+  },
+  {
+    name: "Junbo",
+    position: "Investor Haskey Capital",
+    href: "https://x.com/yjbdrr",
+    caption: "via @yjbdrr",
+    photo: "/mentors/junbo.png"
+  },
+  {
+    name: "Choly 🌲👼",
+    position: "Core Triangle, Growth&Strategy Notcoin",
+    href: "https://x.com/zeroxcholy",
+    caption: "via @zeroxcholy",
+    photo: "/mentors/choly.png"
+  },
+  {
+    name: "Rishi Thomas 🌲👼",
+    position: "Core Triangle, Business Development Lead Sign",
+    href: "https://x.com/ThomasRishi",
+    caption: "via @ThomasRishi",
+    photo: "/mentors/rishithomas.png"
+  },
+  {
+    name: "daosasha 🌲👼",
+    position: "Core Triangle, Partnerships Lead 1inch",
+    href: "https://x.com/daosasha",
+    caption: "via @daosasha",
+    photo: "/mentors/daosasha.png"
+  }
+];

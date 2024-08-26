@@ -1,9 +1,10 @@
 .container {
     background: rgba(15, 17, 36, 0.6);
-    padding: 0 12px 10px;
+    padding: 12px 12px 10px;
     border: #1D30DB 1px solid;
     border-radius: 8px;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .container:hover {
@@ -11,7 +12,8 @@
 }
 
 .photo {
-    border-radius: 8px;
+    border-radius: 6px;
+    overflow: hidden;
     width: 100%;
     aspect-ratio: 1;
     position: relative;
@@ -24,7 +26,19 @@
     line-height: 28px;
     text-align: left;
     margin: 20px 0 10px;
-    color: rgba(255, 255, 255, 0.7);
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: #FFF;
+}
+
+.jobname {
+    font-family: var(--font-inter-tight);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    /* margin: 20px 0 10px; */
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: #FFF;
 }
 
 .caption {
@@ -34,14 +48,19 @@
 
 @media (max-width: 767px) {
     .container {
-        padding: 12px 8px;
+        padding: 8px 8px;
     }
 
     .texts {
         font-family: var(--font-inter-tight);
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 24px;
         margin: 4px 0 0 0;
+    }
+
+    .jobname {
+        font-size: 14px;
+        line-height: 20px;
     }
 
     .caption {

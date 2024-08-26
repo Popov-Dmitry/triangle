@@ -23,3 +23,10 @@
     top: 10%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 768px) {
+    .logoRotated > img,
+    .logo img {
+        width: 90px;
+    }
+}

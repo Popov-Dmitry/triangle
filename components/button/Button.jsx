@@ -8,7 +8,7 @@ const Button = ({
   text,
   type,
   variant = "filled",
-  color = "white",
+  color = "blue",
   disabled,
   onClick,
   className,
