@@ -31,14 +31,16 @@ export default function Home() {
             {/* </div> */}
             <Image src="./triangle.svg" alt="" width={525} height={544} />
             <div className={styles.triangleContent}>
-              <div>
-                Applications to Triangle Cohort 1 are now closed. <br />
-                Please follow us on Telegram & X for more updates. <br />
-                For other requests, please feel free to get in touch.
+              <div className={styles.triangleContentText}>
+                Applications<br />
+                to Triangle Cohort 1<br />
+                are now closed. Please follow<br />
+                us on Telegram & X for more updates.<br /> <br />
+                For other requests, please<br/>
+                feel free to get in touch.
               </div>
               <Button
                 text="Get in touch"
-                className={styles.fullWidthButton}
                 href="https://tally.so/r/3jxoZx"
                 newTab
               />
@@ -188,11 +190,11 @@ export default function Home() {
               </div>
               <div className={styles.partners}>
                 <Desktop>
-                  <Logo src="/logo/subtract.svg" 
+                  <Logo src="/logo/subtract.svg"
                   height={110}/>
                 </Desktop>
                 <Mobile>
-                  <Logo src="/logo/subtract.svg" 
+                  <Logo src="/logo/subtract.svg"
                   width={90}
                   height={100}/>
                 </Mobile>
@@ -259,16 +261,16 @@ export default function Home() {
             <div className={styles.expectationsCaptionsContainer}>
               <div className={styles.caption}>
                 6 weeks with various mentor sessions from
-                leading founders of web3 companies 
+                leading founders of web3 companies
                 and prolific TON ecosystem members
               </div>
               <div className={styles.caption}>
-                The program’s focus is Go-To-Market Strategy, 
+                The program’s focus is Go-To-Market Strategy,
                 technical support and fundraising
               </div>
               <div className={styles.caption}>
-                The culmination of Triangle accelerator program 
-                is the demo day with an opportunity to get 
+                The culmination of Triangle accelerator program
+                is the demo day with an opportunity to get
                 your startup funded
               </div>
             </div>
