@@ -345,6 +345,7 @@ export default function Home() {
                     src={src}
                     alt=""
                     className={src.includes("Stonfi") ? styles.bottomPartnerImage : styles.bottomPartnerImageWhite}
+                    style={src.includes("TONX") ? { scale: 0.85, marginLeft: -20 } : undefined}
                   />
                 ))}
               </div>
