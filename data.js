@@ -229,13 +229,6 @@ export const mentors = [
     href: "https://x.com/daosasha",
     caption: "via @daosasha",
     photo: "/mentors/daosasha.png"
-  },
-  {
-    name: "Min 🌲👼",
-    position: "Partner",
-    href: "https://x.com/0xmin3",
-    caption: "via @min",
-    photo: "/mentors/min.jpg"
   }
 ];
 
