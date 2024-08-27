@@ -382,10 +382,10 @@
 }
 
 .bottomPartners {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 64px 32px;
     margin-top: 30px;
 }
 
