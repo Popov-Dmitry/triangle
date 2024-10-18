@@ -1,12 +1,12 @@
 import styles from "./page.module.css";
-import { ecosystemPartnerLogos, mentors, vcPartnerLogos } from "@/data";
+import { ecosystemPartnerLogos, vcPartnerLogos } from "@/data";
 import Button from "@/components/button/Button";
 import Image from "next/image";
-import MentorCard from "@/components/mentor-card/MentorCard";
 import ChatBubble from "@/components/chat-bubble/ChatBubble";
 import { joinClassNames } from "@/utils/join-class-names";
 import { Desktop, Mobile } from "@/components/responsive/Responsive";
 import dynamic from "next/dynamic";
+import Mentors from "@/components/mentors/Mentors";
 
 const Logo = dynamic(() => import("@/components/logo/Logo"), { ssr: false });
 const Emoji = dynamic(() => import("@/components/emoji/Emoji"), { ssr: false });
@@ -87,11 +87,7 @@ export default function Home() {
               </div>
             </Mobile>
           </div>
-          <div className={styles.mentors}>
-            {mentors.map((mentor) => (
-              <MentorCard key={mentor.name} {...mentor} />
-            ))}
-          </div>
+          <Mentors />
           <Button
             text="Get in touch"
             className={joinClassNames(styles.marginCenter, styles.mt30)}

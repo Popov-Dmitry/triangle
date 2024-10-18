@@ -1,0 +1,32 @@
+.mentors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 14px;
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity 1.2s;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+@media (max-width: 1140px) {
+    .mentors {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mentors {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .mentors {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 26px;
+    }
+}

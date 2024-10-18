@@ -155,13 +155,6 @@
     margin-top: 100px;
 }
 
-.mentors {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 14px;
-    margin-top: 20px;
-}
-
 .mentorsTitle {
     display: flex;
     align-items: center;
@@ -437,19 +430,9 @@
     text-align: center !important;
 }
 
-@media (max-width: 1140px) {
-    .mentors {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
 @media (max-width: 1024px) {
     .partner {
         margin-left: -70px;
-    }
-
-    .mentors {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -518,12 +501,6 @@
     .caption {
         font-size: 18px;
         line-height: 21px;
-    }
-
-    .mentors {
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 26px;
     }
 
     .mentorsTitle {
