@@ -210,6 +210,111 @@ export const mentors = [
     photo: "/mentors/junbo.png"
   },
   {
+    name: "Ilya Abugov",
+    position: "Partner, Sanctor Capital",
+    href: "https://x.com/abugovilya/",
+    caption: "via @",
+    photo: "/mentors/ilya-abugov.jpg"
+  },
+  {
+    name: "Benson Yan",
+    position: "Partner, OKX Ventures",
+    href: "https://x.com/BensonY4BDV",
+    caption: "via @",
+    photo: "/mentors/benson-yan.jpg"
+  },
+  {
+    name: "Vlad DeGen",
+    position: "DeFi Lead, TON Foundation",
+    href: "https://x.com/VladDegen",
+    caption: "via @",
+    photo: "/mentors/vlad-degen.jpg"
+  },
+  {
+    name: "Ilya Flaks",
+    position: "Co-founder, TonTonGames",
+    href: "https://x.com/flaks_ilia?s=11",
+    caption: "via @",
+    photo: "/mentors/ilya-flaks.jpg"
+  },
+  {
+    name: "Delroy Fong",
+    position: "Head of Institutional Trading, Amber",
+    href: "https://x.com/delroy987",
+    caption: "via @",
+    photo: "/mentors/delroy-fong.jpg"
+  },
+  {
+    name: "Stephan Gershuni",
+    position: "VC Principal, cyber•Fund",
+    href: "https://x.com/sgershuni",
+    caption: "via @",
+    photo: "/mentors/stepan-gershuni.png"
+  },
+  {
+    name: "Kuan Huang",
+    position: "Managing Director, IOSG",
+    href: "https://www.linkedin.com/in/kuanhuang",
+    caption: "via @",
+    photo: "/mentors/kuan-huang.jpg"
+  },
+  {
+    name: "Vadim Koleoshkin",
+    position: "Venture Partner, Polymorphic Capital",
+    href: "https://x.com/rockfridrich",
+    caption: "via @",
+    photo: "/mentors/vadim-koleoshkin.jpg"
+  },
+  {
+    name: "Igor Pugachevsky",
+    position: "Co-Founder, Blum",
+    href: "https://x.com/0xGenie",
+    caption: "via @",
+    photo: "/mentors/igor-pugachevsky.jpg"
+  },
+  {
+    name: "Kris",
+    position: "Investment Director, ABCDE Capital",
+    href: "https://x.com/kristian_cy",
+    caption: "via @",
+    photo: "/mentors/kris-abcde.jpg"
+  },
+  {
+    name: "Andrea Chang",
+    position: "Partner, OAK Grove Ventures",
+    href: "https://x.com/Andrea__Chang",
+    caption: "via @",
+    photo: "/mentors/andrea-chang.jpg"
+  },
+  {
+    name: "Danish Chaudhry",
+    position: "Co-founder & GP, Paper Ventures",
+    href: "https://x.com/djchaudhry_https://www.linkedin.com/in/djchaudhry/",
+    caption: "via @",
+    photo: "/mentors/danish-chaudhry.jpg"
+  },
+  {
+    name: "John Fiorelli",
+    position: "Partner, Kenetic Capital",
+    href: "https://x.com/jfiorelli",
+    caption: "via @",
+    photo: "/mentors/john-fiodeli.jpg"
+  },
+  {
+    name: "Yudai",
+    position: "Co-Founder, Fracton Ventures",
+    href: "https://x.com/9dai_5",
+    caption: "via @",
+    photo: "/mentors/yudai.jpg"
+  },
+  {
+    name: "Sergey Sheleg",
+    position: "CPO/CTO, Nicegram",
+    href: "https://x.com/fuck_this_year",
+    caption: "via @",
+    photo: "/mentors/sergey-sheleg.JPG"
+  },
+  {
     name: "Choly 🌲👼",
     position: "Core Triangle, Growth&Strategy Notcoin",
     href: "https://x.com/zeroxcholy",
@@ -236,111 +341,6 @@ export const mentors = [
     href: "https://x.com/0xmin3",
     caption: "via @min",
     photo: "/mentors/min.jpg"
-  },
-  {
-    name: "Ilya Abugov",
-    position: "Partner, Sanctor Capital",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/ilya-abugov.jpg"
-  },
-  {
-    name: "Benson Yan",
-    position: "Partner, OKX Ventures",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/benson-yan.jpg"
-  },
-  {
-    name: "Vlad DeGen",
-    position: "DeFi Lead, TON Foundation",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/vlad-degen.jpg"
-  },
-  {
-    name: "Ilya Flaks",
-    position: "Co-founder, TonTonGames",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/ilya-flaks.jpg"
-  },
-  {
-    name: "Delroy Fong",
-    position: "Head of Institutional Trading, Amber",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/delroy-fong.jpg"
-  },
-  {
-    name: "Stephan Gershuni",
-    position: "VC Principal, cyber•Fund",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/stepan-gershuni.png"
-  },
-  {
-    name: "Kuan Huang",
-    position: "Managing Director, IOSG",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/kuan-huang.jpg"
-  },
-  {
-    name: "Vadim Koleoshkin",
-    position: "Venture Partner, Polymorphic Capital",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/vadim-koleoshkin.jpg"
-  },
-  {
-    name: "Igor Pugachevsky",
-    position: "Co-Founder, Blum",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/igor-pugachevsky.jpg"
-  },
-  {
-    name: "Kris",
-    position: "Investment Director, ABCDE Capital",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/kris-abcde.jpg"
-  },
-  {
-    name: "Andrea Chang",
-    position: "Partner, OAK Grove Ventures",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/andrea-chang.jpg"
-  },
-  {
-    name: "Danish Chaudhry",
-    position: "Co-founder & GP, Paper Ventures",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/danish-chaudhry.jpg"
-  },
-  {
-    name: "John Fiorelli",
-    position: "Partner, Kenetic Capital",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/john-fiodeli.jpg"
-  },
-  {
-    name: "Yudai",
-    position: "Co-Founder, Fracton Ventures",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/yudai.jpg"
-  },
-  {
-    name: "Sergey Sheleg",
-    position: "CPO/CTO, Nicegram",
-    href: "",
-    caption: "via @",
-    photo: "/mentors/sergey-sheleg.JPG"
   }
 ];
 
