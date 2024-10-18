@@ -230,6 +230,14 @@ export const mentors = [
     caption: "via @daosasha",
     photo: "/mentors/daosasha.png"
   }
+  ,
+  {
+    name: "Min 🌲👼",
+    position: "Foresight Ventures Partner",
+    href: "https://x.com/0xmin3",
+    caption: "via @min",
+    photo: "/mentors/min.jpg"
+  }
 ];
 
 export const ecosystemPartnerLogos = [

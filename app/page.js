@@ -32,11 +32,15 @@ export default function Home() {
             <Image src="./triangle.svg" alt="" width={525} height={544} />
             <div className={styles.triangleContent}>
               <div className={styles.triangleContentText}>
-                Applications<br />
+                Applications
+                <br />
                 to Triangle Cohort 1<br />
-                are now closed. Please follow<br />
-                us on Telegram & X for more updates.<br /> <br />
-                For other requests, please<br/>
+                are now closed. Please follow
+                <br />
+                us on Telegram & X for more updates.
+                <br /> <br />
+                For other requests, please
+                <br />
                 feel free to get in touch.
               </div>
               <Button
@@ -115,9 +119,8 @@ export default function Home() {
                 <div className={styles.partnerItem}>
                   <div className={styles.subtitle}>Community</div>
                   <div className={styles.partnersList}>
-                    Telegram native toolset for easy access
-                    to a 900M active audience.
-                    500+ user-acquisition campaigns.
+                    Telegram native toolset for easy access to a 900M active
+                    audience. 500+ user-acquisition campaigns.
                     <br />
                     Experience of launching major
                     <br />
@@ -129,8 +132,8 @@ export default function Home() {
                 <div className={styles.partnerItem}>
                   <div className={styles.subtitle}>Sign</div>
                   <div className={styles.partnersList}>
-                    Infrastructure for sybil resistance token
-                    launches, airdrops, unlocks and vesting.
+                    Infrastructure for sybil resistance token launches,
+                    airdrops, unlocks and vesting.
                     <br />
                     Over $100M worth of tokens managed.
                   </div>
@@ -156,14 +159,10 @@ export default function Home() {
             <div className={styles.partnersTriangles}>
               <div className={styles.partners}>
                 <Desktop>
-                  <Logo src="/logo/union.svg"
-                  height={120}
-                  rotated />
+                  <Logo src="/logo/union.svg" height={120} rotated />
                 </Desktop>
                 <Mobile>
-                  <Logo src="/logo/union.svg"
-                  height={80}
-                  rotated />
+                  <Logo src="/logo/union.svg" height={80} rotated />
                 </Mobile>
                 <Desktop>
                   <Logo
@@ -182,43 +181,48 @@ export default function Home() {
                   />
                 </Mobile>
                 <Logo
-                src="/logo/early.svg"
-                rotated
-                height={92}
-                className={styles.partner}
-              />
+                  src="/logo/early.svg"
+                  rotated
+                  height={92}
+                  className={styles.partner}
+                />
               </div>
               <div className={styles.partners}>
                 <Desktop>
-                  <Logo src="/logo/subtract.svg"
-                  height={110}/>
+                  <Logo src="/logo/subtract.svg" height={110} />
                 </Desktop>
                 <Mobile>
-                  <Logo src="/logo/subtract.svg"
-                  width={90}
-                  height={100}/>
+                  <Logo src="/logo/subtract.svg" width={90} height={100} />
                 </Mobile>
                 <Desktop>
-                  <Logo src="/logo/sign.svg"
-                  height={100}
-                  rotated
-                  className={styles.partner} />
+                  <Logo
+                    src="/logo/sign.svg"
+                    height={100}
+                    rotated
+                    className={styles.partner}
+                  />
                 </Desktop>
                 <Mobile>
-                <Logo src="/logo/sign.svg"
-                  height={100}
-                  rotated
-                  className={styles.partner} />
+                  <Logo
+                    src="/logo/sign.svg"
+                    height={100}
+                    rotated
+                    className={styles.partner}
+                  />
                 </Mobile>
                 <Desktop>
-                  <Logo src="/logo/1inch.svg"
-                  height={100}
-                  className={styles.partner} />
+                  <Logo
+                    src="/logo/1inch.svg"
+                    height={100}
+                    className={styles.partner}
+                  />
                 </Desktop>
                 <Mobile>
-                  <Logo src="/logo/1inch.svg"
-                  height={70}
-                  className={styles.partner} />
+                  <Logo
+                    src="/logo/1inch.svg"
+                    height={70}
+                    className={styles.partner}
+                  />
                 </Mobile>
               </div>
             </div>
@@ -260,18 +264,16 @@ export default function Home() {
           <div className={styles.expectationsCaptions}>
             <div className={styles.expectationsCaptionsContainer}>
               <div className={styles.caption}>
-                6 weeks with various mentor sessions from
-                leading founders of web3 companies
-                and prolific TON ecosystem members
+                6 weeks with various mentor sessions from leading founders of
+                web3 companies and prolific TON ecosystem members
               </div>
               <div className={styles.caption}>
-                The program’s focus is Go-To-Market Strategy,
-                technical support and fundraising
+                The program’s focus is Go-To-Market Strategy, technical support
+                and fundraising
               </div>
               <div className={styles.caption}>
-                The culmination of Triangle accelerator program
-                is the demo day with an opportunity to get
-                your startup funded
+                The culmination of Triangle accelerator program is the demo day
+                with an opportunity to get your startup funded
               </div>
             </div>
             <Button
@@ -344,8 +346,18 @@ export default function Home() {
                     key={src}
                     src={src}
                     alt=""
-                    className={src.includes("Stonfi") ? styles.bottomPartnerImage : styles.bottomPartnerImageWhite}
-                    style={src.includes("TONX") ? { scale: 0.85, marginLeft: -20 } : undefined}
+                    className={
+                      src.includes("Stonfi")
+                        ? styles.bottomPartnerImage
+                        : styles.bottomPartnerImageWhite
+                    }
+                    style={
+                      src.includes("TONX") ||
+                      src.includes("Stonfi") ||
+                      src.includes("GSR")
+                        ? { scale: 0.85, marginLeft: -20 }
+                        : { scale: 1.3 }
+                    }
                   />
                 ))}
               </div>
@@ -358,7 +370,12 @@ export default function Home() {
                     key={src}
                     src={src}
                     alt=""
-                    className={src.includes("Fraction") ? styles.bottomPartnerImage : styles.bottomPartnerImageWhite}
+                    className={
+                      src.includes("Fraction")
+                        ? styles.bottomPartnerImage
+                        : styles.bottomPartnerImageWhite
+                    }
+                    style={src.includes("Animoca") ? { scale: 1.3 } : undefined}
                   />
                 ))}
               </div>
