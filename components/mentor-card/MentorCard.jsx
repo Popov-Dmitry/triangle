@@ -9,6 +9,7 @@ const MentorCard = ({ photo, name, position, caption, href }) => (
         src={photo}
         alt={name}
         fill
+        className={styles.cover}
       />
     </div>
     <div className={styles.texts}>

@@ -19,6 +19,11 @@
     position: relative;
 }
 
+.cover {
+    object-fit: cover;
+    object-position: top;
+}
+
 .texts {
     font-family: var(--font-inter-tight);
     font-size: 24px;
