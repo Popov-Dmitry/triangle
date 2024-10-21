@@ -3,7 +3,7 @@
     padding: 12px 12px 10px;
     border: #1D30DB 1px solid;
     border-radius: 8px;
-    transition: 0.3s;
+    transition: scale 0.3s, opacity 1.2s;
     text-decoration: none;
 }
 
@@ -49,6 +49,10 @@
 .caption {
     font-size: 8px;
     text-align: end;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 @media (max-width: 767px) {
