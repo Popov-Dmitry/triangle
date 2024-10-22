@@ -610,3 +610,16 @@
         line-height: 36px;
     }
 }
+
+
+@media (max-width: 586px) {
+    .bottomPartners {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 430px) {
+    .bottomPartners {
+        grid-template-columns: 1fr;
+    }
+}
